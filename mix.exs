@@ -19,8 +19,8 @@ defmodule GeoPostgisDepTest.MixProject do
 
   defp deps do
     [
-      {:geo_postgis, "== 3.4.3"},
-      {:ecto, "~> 3.10"}
+      {:dep1, ">= 0.0.0", path: "./dep1"},
+      {:dep2, ">= 0.0.0", path: "./dep2"}
     ]
   end
 end
